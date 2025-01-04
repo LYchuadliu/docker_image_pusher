@@ -8,4 +8,4 @@
 registry.cn-hangzhou.aliyuncs.com/google_containers/kube-scheduler:v1.30.6
 docker.io/jettech/kube-webhook-certgen:v1.5.2
 liangjw/kube-webhook-certgen:v1.1.1
-projecthami/hami
+projecthami/hami:v2.4.1
