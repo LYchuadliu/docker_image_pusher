@@ -11,13 +11,4 @@
 #projecthami/hami:v2.4.1
 #quay.io/brancz/kube-rbac-proxy:v0.18.2
 #nvcr.io/nvidia/k8s-device-plugin:v0.17.0
-postgres:15-alpine
-redis:7.2.3-alpine
-apache/kvrocks:2.7.0
-cvat/server:v2.24.0
-cvat/ui:v2.24.0
-traefik:v2.10
-openpolicyagent/opa:0.63.0
-clickhouse/clickhouse-server:23.11-alpine
-timberio/vector:0.26.0-alpine
-grafana/grafana-oss:10.1.2
+docker.io/nvidia/cuda:12.0.1-base-ubuntu20.04
