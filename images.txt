@@ -9,4 +9,5 @@
 #docker.io/jettech/kube-webhook-certgen:v1.5.2
 #liangjw/kube-webhook-certgen:v1.1.1
 #projecthami/hami:v2.4.1
-quay.io/brancz/kube-rbac-proxy:v0.18.2
+#quay.io/brancz/kube-rbac-proxy:v0.18.2
+nvcr.io/nvidia/k8s-device-plugin:v0.17.0
