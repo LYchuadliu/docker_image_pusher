@@ -17,4 +17,8 @@
 #docker.io/jettech/kube-webhook-certgen:v1.5.2
 #liangjw/kube-webhook-certgen:v1.1.1
 #ubuntu:18.04
-quay.io/skopeo/stable:latest
+#quay.io/skopeo/stable:latest
+redis:6.2.12
+minio/minio:RELEASE.2023-03-24T21-41-23Z
+apache/rocketmq:5.2.0
+apacherocketmq/rocketmq-dashboard:latest
