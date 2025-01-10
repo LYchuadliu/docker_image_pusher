@@ -55,3 +55,4 @@
 nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.10.0-ubuntu20.04
 #driver-ubuntu20.04
 registry.k8s.io/nfd/node-feature-discovery:v0.16.6
+
