@@ -51,3 +51,4 @@
 #nvcr.io/nvidia/cloud-native/k8s-driver-manager:v0.7.0
 #nvcr.io/nvidia/gpu-operator:v24.9.1
 nvcr.io/nvidia/k8s-device-plugin:v0.17.0
+nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.9.1
