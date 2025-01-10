@@ -53,3 +53,4 @@
 #nvcr.io/nvidia/k8s-device-plugin:v0.17.0
 #nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.9.1
 nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.10.0-ubuntu20.04
+driver-ubuntu20.04
