@@ -55,6 +55,7 @@
 nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.10.0-ubuntu20.04
 #driver-ubuntu20.04
 #registry.k8s.io/nfd/node-feature-discovery:v0.16.6
+
 quay.io/prometheus/alertmanager:v0.25.0
 quay.io/prometheus/blackbox-exporter:v0.23.0
 jimmidyson/configmap-reload:v0.5.0
