@@ -26,6 +26,10 @@
 #quay.io/prometheus-operator/prometheus-config-reloader:v0.62.0
 #prom/node-exporter:v1.5.0
 #quay.io/brancz/kube-rbac-proxy:v0.14.0
-docker.io/utkuozdemir/nvidia_gpu_exporter:1.2.1
-nginx
-gcr.io/kaniko-project/executor:latest
+#docker.io/utkuozdemir/nvidia_gpu_exporter:1.2.1
+#nginx
+#gcr.io/kaniko-project/executor:latest
+quay.dockerproxy.net/k8scsi/csi-provisioner:v2.1.0 
+cr.yandex/crp9ftr22d26age3hulg/csi-s3:0.42.1
+quay.dockerproxy.net/k8scsi/csi-node-driver-registrar:v1.2.0 
+cr.yandex/crp9ftr22d26age3hulg/csi-s3:0.42.1
