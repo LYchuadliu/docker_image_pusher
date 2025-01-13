@@ -27,4 +27,4 @@
 #prom/node-exporter:v1.5.0
 #quay.io/brancz/kube-rbac-proxy:v0.14.0
 docker.io/utkuozdemir/nvidia_gpu_exporter:1.2.1
-
+nginx
