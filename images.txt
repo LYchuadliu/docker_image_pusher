@@ -28,3 +28,4 @@
 #quay.io/brancz/kube-rbac-proxy:v0.14.0
 docker.io/utkuozdemir/nvidia_gpu_exporter:1.2.1
 nginx
+gcr.io/kaniko-project/executor:latest
