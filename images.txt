@@ -33,4 +33,5 @@
 #cr.yandex/crp9ftr22d26age3hulg/csi-s3:0.42.1
 #longhornio/csi-node-driver-registrar:v1.2.0
 #cr.yandex/crp9ftr22d26age3hulg/csi-s3:0.42.1
-nvcr.io/nvidia/k8s-device-plugin:v0.17.0
+#nvcr.io/nvidia/k8s-device-plugin:v0.17.0
+tensorflow/tensorflow:latest-gpu-jupyter
