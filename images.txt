@@ -35,7 +35,8 @@
 #cr.yandex/crp9ftr22d26age3hulg/csi-s3:0.42.1
 #nvcr.io/nvidia/k8s-device-plugin:v0.17.0
 #tensorflow/tensorflow:latest-gpu-jupyter
-redis:6.2
-sameersbn/postgresql:14-20230628
-sameersbn/gitlab:17.5.3
-
+#redis:6.2
+#sameersbn/postgresql:14-20230628
+#sameersbn/gitlab:17.5.3
+gitlab/gitlab-runner:latest
+gitlab/gitlab-ee:latest
