@@ -40,3 +40,4 @@
 #sameersbn/gitlab:17.5.3
 gitlab/gitlab-runner:latest
 gitlab/gitlab-ee:latest
+gitlab/gitlab-ce:17.7.2-ce.0
