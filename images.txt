@@ -46,6 +46,7 @@
 #redis:6.2.12
 #minio/minio:RELEASE.2023-03-24T21-41-23Z
 #gitlab/gitlab-ce:latest
-sameersbn/postgresql:14-20230628
-sameersbn/gitlab:17.5.3
+#sameersbn/postgresql:14-20230628
+#sameersbn/gitlab:17.5.3
+projecthami/hami:v2.4.1
 
