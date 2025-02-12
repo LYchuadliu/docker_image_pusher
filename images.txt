@@ -49,5 +49,5 @@
 #sameersbn/postgresql:14-20230628
 #sameersbn/gitlab:17.5.3
 #projecthami/hami:v2.4.1
-hami/hami:v2.4.1
-
+#hami/hami:v2.4.1
+vllm/vllm-openai:latest
