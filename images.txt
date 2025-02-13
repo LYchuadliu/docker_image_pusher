@@ -52,4 +52,4 @@
 #hami/hami:v2.4.1
 #vllm/vllm-openai:latest
 #ollama/ollama:0.5.8-rc11
-nvcr.io/nvidia/k8s/dcgm-exporter:4.0.0-4.0.0-ubuntu22.04
+nvidia/dcgm-exporter:4.0.0-4.0.1-ubuntu22.04
