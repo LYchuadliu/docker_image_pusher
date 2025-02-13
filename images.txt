@@ -50,4 +50,5 @@
 #sameersbn/gitlab:17.5.3
 #projecthami/hami:v2.4.1
 #hami/hami:v2.4.1
-vllm/vllm-openai:latest
+#vllm/vllm-openai:latest
+ollama/ollama:0.5.8-rc11
