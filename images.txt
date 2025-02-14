@@ -54,4 +54,5 @@
 #ollama/ollama:0.5.8-rc11
 #nvidia/dcgm-exporter:4.0.0-4.0.1-ubuntu22.04
 #ghcr.io/open-webui/open-webui:main
-nvcr.io/nvidia/pytorch:23.06-py3
+#nvcr.io/nvidia/pytorch:23.06-py3
+registry.k8s.io/nfd/node-feature-discovery:v0.16.6
