@@ -55,4 +55,13 @@
 #nvidia/dcgm-exporter:4.0.0-4.0.1-ubuntu22.04
 #ghcr.io/open-webui/open-webui:main
 #nvcr.io/nvidia/pytorch:23.06-py3
-registry.k8s.io/nfd/node-feature-discovery:v0.16.6
+#registry.k8s.io/nfd/node-feature-discovery:v0.16.6
+nvcr.io/nvidia/k8s-device-plugin:v0.17.0",
+registry.k8s.io/nfd/node-feature-discovery:v0.16.6",
+nvcr.io/nvidia/k8s/container-toolkit:v1.17.4-ubuntu20.04",
+nvcr.io/nvidia/k8s/dcgm-exporter:3.3.9-3.6.1-ubuntu22.04",
+nvcr.io/nvidia/k8s-device-plugin:v0.17.0",
+nvcr.io/nvidia/k8s-device-plugin:v0.17.0",
+nvcr.io/nvidia/driver:550.144.03-ubuntu20.04",
+nvcr.io/nvidia/cloud-native/k8s-mig-manager:v0.10.0-ubuntu20.04",
+nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.9.2"
