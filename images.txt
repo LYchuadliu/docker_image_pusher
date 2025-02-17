@@ -69,3 +69,4 @@
 #lmsysorg/sglang:v0.4.2.post4-cu125-srt
 docker.io/volcanosh/vc-webhook-manager:latest
 docker.io/volcanosh/vc-scheduler:latest
+docker.io/volcanosh/vc-controller-manager:latest
