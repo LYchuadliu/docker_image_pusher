@@ -67,6 +67,7 @@
 #nvcr.io/nvidia/cloud-native/gpu-operator-validator:v24.9.2"
 #backplane/open-webui:0-ollama
 #lmsysorg/sglang:v0.4.2.post4-cu125-srt
-docker.io/volcanosh/vc-webhook-manager:latest
-docker.io/volcanosh/vc-scheduler:latest
-docker.io/volcanosh/vc-controller-manager:latest
+#docker.io/volcanosh/vc-webhook-manager:latest
+#docker.io/volcanosh/vc-scheduler:latest
+#docker.io/volcanosh/vc-controller-manager:latest
+lmsysorg/sglang:latest
