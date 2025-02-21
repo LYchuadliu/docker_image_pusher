@@ -79,5 +79,6 @@
 #ghcr.io/open-webui/pipelines:main
 #bitnami/redis:7.4.2-debian-12-r2
 #apache/tika:2.9.0.0
-node:20.16.0
-pytorch/pytorch:2.3.1-cuda12.1-cudnn8-devel
+#node:20.16.0
+#pytorch/pytorch:2.3.1-cuda12.1-cudnn8-devel
+node:20.16.0 as web_compile
