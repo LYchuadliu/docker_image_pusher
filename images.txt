@@ -85,4 +85,5 @@
 #ghcr.io/open-webui/open-webui:cuda
 #node:20-alpine3.20
 #lychuad/open-webui:v2
-lmsysorg/sglang:v0.4.3.post1-cu121-srt
+#lmsysorg/sglang:v0.4.3.post1-cu121-srt
+approachingai/ktransformers:v0.2.2rc2-NATIVE
