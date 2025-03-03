@@ -87,4 +87,5 @@
 #lychuad/open-webui:v2
 #lmsysorg/sglang:v0.4.3.post1-cu121-srt
 #approachingai/ktransformers:v0.2.2rc2-NATIVE
-lychuad/dify-web:v2
+#lychuad/dify-web:v2
+lychuad/open-webui:v3
