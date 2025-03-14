@@ -91,4 +91,7 @@
 #lychuad/open-webui:v4
 #lmsysorg/sglang:v0.4.3.post2-cu125-srt
 #lmsysorg/sglang:dev
-lychuad/tensorflow-cuda12:v2
+#lychuad/tensorflow-cuda12:v2
+prom/prometheus:v2.39.1
+grafana/grafana:10.3.3
+prom/node-exporter:latest
