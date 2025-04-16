@@ -88,5 +88,5 @@
 #lmsysorg/sglang:v0.4.3.post1-cu121-srt
 #approachingai/ktransformers:v0.2.2rc2-NATIVE
 #lmsysorg/sglang:v0.4.3.post2-cu125-srt
-#lmsysorg/sglang:dev
 lmsysorg/sglang:dev
+lmsysorg/sglang:v0.4.5-cu124
