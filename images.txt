@@ -90,6 +90,7 @@
 #lmsysorg/sglang:v0.4.3.post2-cu125-srt
 #lmsysorg/sglang:dev
 #lmsysorg/sglang:v0.4.5-cu124
-nvcr.io/nvidia/gpu-operator:v23.9.2
-pointcept/pointcept:v1.6.0-pytorch2.5.0-cuda12.4-cudnn9-devel
+#nvcr.io/nvidia/gpu-operator:v23.9.2
+#pointcept/pointcept:v1.6.0-pytorch2.5.0-cuda12.4-cudnn9-devel
+sameersbn/gitlab:15.1.0
 
