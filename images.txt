@@ -92,6 +92,6 @@
 #lmsysorg/sglang:v0.4.5-cu124
 #nvcr.io/nvidia/gpu-operator:v23.9.2
 #pointcept/pointcept:v1.6.0-pytorch2.5.0-cuda12.4-cudnn9-devel
-nikolaik/python-nodejs:python3.10-nodejs18
-nikolaik/python-nodejs:python3.10-nodejs12
-
+#nikolaik/python-nodejs:python3.10-nodejs18
+#nikolaik/python-nodejs:python3.10-nodejs12
+lychuad/skelact-cuda11-python39:latest
