@@ -94,4 +94,5 @@
 #pointcept/pointcept:v1.6.0-pytorch2.5.0-cuda12.4-cudnn9-devel
 #nikolaik/python-nodejs:python3.10-nodejs18
 #nikolaik/python-nodejs:python3.10-nodejs12
-lychuad/skelact-cuda11-python39:latest
+#lychuad/skelact-cuda11-python39:latest
+rocm/megatron-lm:v25.6_py310
