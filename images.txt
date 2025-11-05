@@ -97,4 +97,5 @@
 #lychuad/skelact-cuda11-python39:latest
 #rocm/megatron-lm:v25.6_py310
 #pihz/openfly_platform:0.7
-vllm/vllm-openai:v0.11.0
+$vllm/vllm-openai:v0.11.0
+lychuad/depth_any_camera:latest
