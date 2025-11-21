@@ -98,4 +98,5 @@
 #rocm/megatron-lm:v25.6_py310
 #pihz/openfly_platform:0.7
 #vllm/vllm-openai:v0.11.0
-lychuad/depth_any_camera:latest
+#lychuad/depth_any_camera:latest
+ai/qwen3-vl:latest
