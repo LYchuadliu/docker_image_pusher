@@ -100,4 +100,5 @@
 #vllm/vllm-openai:v0.11.0
 #lychuad/depth_any_camera:latest
 #ai/qwen3-vl:latest
-vllm/vllm-openai:v0.11.0 
+#vllm/vllm-openai:v0.11.0 
+bcheong/sparse4d-lidar:sam
