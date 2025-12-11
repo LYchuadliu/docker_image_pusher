@@ -103,4 +103,5 @@
 #vllm/vllm-openai:v0.11.0 
 #bcheong/sparse4d-lidar:sam
 #ubuntu:24.04
-ericpaulsen/ubuntu-gui:v5
+#ericpaulsen/ubuntu-gui:v5
+tokisakikurumi2001/megatron-bridge:25.11.24
