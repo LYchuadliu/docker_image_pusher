@@ -104,5 +104,6 @@
 #bcheong/sparse4d-lidar:sam
 #ubuntu:24.04
 #ericpaulsen/ubuntu-gui:v5
-tokisakikurumi2001/megatron-bridge:25.11.24
+#tokisakikurumi2001/megatron-bridge:25.11.24
 #nvidia/cuda:12.4.0-base-ubuntu22.04
+siiai/siirl-vla:libero-egl-cu12.6
