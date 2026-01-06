@@ -110,4 +110,5 @@
 #siiai/siirl-base:vllm0.8.5.post1-sglang0.4.6.post5-cu124
 #rlinf/rlinf:agentic-rlinf0.1-torch2.6.0-openvla-openvlaoft-pi0
 #hiyouga/llamafactory:latest
-vllm/vllm-openai:v0.13.0
+#vllm/vllm-openai:v0.13.0
+artifacts.codelinaro.org/codelinaro-aimet/aimet-dev:latest.torch-gpu 
