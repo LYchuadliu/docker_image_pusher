@@ -111,4 +111,5 @@
 #rlinf/rlinf:agentic-rlinf0.1-torch2.6.0-openvla-openvlaoft-pi0
 #hiyouga/llamafactory:latest
 #vllm/vllm-openai:v0.13.0
-artifacts.codelinaro.org/codelinaro-aimet/aimet-dev:latest.torch-gpu 
+#artifacts.codelinaro.org/codelinaro-aimet/aimet-dev:latest.torch-gpu 
+nerfstudio/nerfstudio:latest
