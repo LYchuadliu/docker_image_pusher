@@ -112,5 +112,4 @@
 #hiyouga/llamafactory:latest
 #vllm/vllm-openai:v0.13.0
 #artifacts.codelinaro.org/codelinaro-aimet/aimet-dev:latest.torch-gpu 
-#nerfstudio/nerfstudio:latest
-ghcr.io/nerfstudio-project/nerfstudio:sha256-a1525050147a5bc88c5cca15412f0f799001935f08c1b58f907b61cdd616a823
+ghcr.io/nerfstudio-project/nerfstudio:latest
