@@ -113,4 +113,5 @@
 #vllm/vllm-openai:v0.13.0
 #artifacts.codelinaro.org/codelinaro-aimet/aimet-dev:latest.torch-gpu 
 #ghcr.io/nerfstudio-project/nerfstudio:latest
-nvcr.io/nvidia/pytorch:23.06-py3
+#nvcr.io/nvidia/pytorch:23.06-py3
+nvcr.io/nvidia/pytorch:25.03-py3
