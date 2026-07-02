@@ -118,5 +118,7 @@
 #bitnami/postgres-exporter:latest
 #bitnami/postgresql:latest
 #bitnami/os-shell:latest
-ghcr.io/coder/coder
-
+#ghcr.io/coder/coder
+ubuntu:24.04
+python:3.12
+golang:1.26
