@@ -40,13 +40,13 @@ jobs:
         df -hT
         echo "=============================================================================="
         
-    # 使用主版本号自动获取兼容 Node.js 24 的最新版本
+    # 改为 @main：绕过特定主版本号，始终自动获取最新的主分支代码（包含 Node.js 24 兼容更新）
     - name: Checkout Code
-      uses: actions/checkout@v4
+      uses: actions/checkout@main
       
-    # 使用主版本号自动获取兼容 Node.js 24 的最新版本
+    # 改为 @master：始终自动获取 Docker Action 的最新支持版本
     - name: Docker Setup Buildx
-      uses: docker/setup-buildx-action@v3
+      uses: docker/setup-buildx-action@master
       
     - name: Build and push image Aliyun
       run: |
