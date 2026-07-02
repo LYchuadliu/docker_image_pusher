@@ -40,11 +40,11 @@ jobs:
         df -hT
         echo "=============================================================================="
         
-    # 改为 @main：绕过特定主版本号，始终自动获取最新的主分支代码（包含 Node.js 24 兼容更新）
+    # 绕过特定主版本号，始终自动获取最新的主分支代码
     - name: Checkout Code
       uses: actions/checkout@main
       
-    # 改为 @master：始终自动获取 Docker Action 的最新支持版本
+    # 始终自动获取 Docker Action 的最新支持版本
     - name: Docker Setup Buildx
       uses: docker/setup-buildx-action@master
       
@@ -62,7 +62,7 @@ jobs:
         declare -A duplicate_images
         declare -A temp_map
         while IFS= read -r line || [ -n "$line" ]; do
-            # 忽略空行与注释 (已修复 Bash set -e 陷阱)
+            # 忽略空行与注释
             if [[ -z "$line" ]]; then
                 continue
             fi
@@ -95,8 +95,24 @@ jobs:
             fi       
         done < images.txt
         
+        # ==============================================================================
+        # 【新增逻辑】在正式开始批量拉取 (Pull) 前，进行一次深度磁盘清理
+        # ==============================================================================
+        echo "=============================================================================="
+        echo "开始 Pull 前的深度磁盘清理..."
+        
+        # 1. 清理 Ubuntu 系统的 apt 缓存包
+        sudo apt-get clean
+        
+        # 2. 彻底清理 Docker 现存的所有无用镜像、构建缓存和匿名卷
+        docker system prune -a -f --volumes
+        
+        echo "Pull 前磁盘清理完成，当前极速状态下的磁盘空间："
+        df -hT
+        echo "=============================================================================="
+        
         while IFS= read -r line || [ -n "$line" ]; do
-            # 忽略空行与注释 (已修复 Bash set -e 陷阱)
+            # 忽略空行与注释
             if [[ -z "$line" ]]; then
                 continue
             fi
@@ -136,7 +152,7 @@ jobs:
             echo "docker push $new_image"
             docker push $new_image
             
-            echo "开始清理磁盘空间"
+            echo "当前镜像推送完成，开始清理当前镜像释放空间"
             echo "=============================================================================="
             docker rmi $image
             docker rmi $new_image
