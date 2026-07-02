@@ -115,8 +115,8 @@
 #nvcr.io/nvidia/pytorch:23.06-py3
 #nvcr.io/nvidia/pytorch:25.03-py3
 #vllm/vllm-openai:latest
-bitnami/postgres-exporter:latest
-bitnami/postgresql:latest
-bitnami/os-shell:latest
-
+#bitnami/postgres-exporter:latest
+#bitnami/postgresql:latest
+#bitnami/os-shell:latest
+ghcr.io/coder/coder
 
