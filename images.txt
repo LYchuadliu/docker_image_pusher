@@ -119,9 +119,9 @@
 #bitnami/postgresql:latest
 #bitnami/os-shell:latest
 #ghcr.io/coder/coder
-registry.k8s.io/sig-storage/csi-node-driver-registrar
-quay.io/cephcsi/cephcsi
-registry.k8s.io/sig-storage/csi-provisioner
-registry.k8s.io/sig-storage/csi-attacher
-registry.k8s.io/sig-storage/csi-resizer
-registry.k8s.io/sig-storage/csi-snapshotter
+registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.16.0
+quay.io/cephcsi/cephcsi:v3.17.0
+registry.k8s.io/sig-storage/csi-provisioner:v6.2.0
+registry.k8s.io/sig-storage/csi-attacher:v4.11.0
+registry.k8s.io/sig-storage/csi-resizer:v2.1.0
+registry.k8s.io/sig-storage/csi-snapshotter:v8.5.0
